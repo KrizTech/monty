@@ -66,6 +66,10 @@ void get_rotl(stack_t **stack, unsigned int line_number);
 void get_pchar(stack_t **stack, unsigned int line_number);
 void get_rotr(stack_t **stack, unsigned int line_number);
 void get_pstr(stack_t **stack, unsigned int line_number);
+void addnode(stack_t **head, int n);
+void addqueue(stack_t **head, int n);
+void f_queue(stack_t **head, unsigned int counter);
+void f_stack(stack_t **head, unsigned int counter);
 
 void get_free(stack_t *stack);
 int _isdigit(char *str);
